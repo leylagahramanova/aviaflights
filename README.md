@@ -4,17 +4,6 @@ The application allows for modifying, adding, and modifying data. Access to user
 The application also includes statistical functionality, enabling analysis of problem types and their frequencies in various simulators. 
 Filtering by flight simulator, date, and users is possible, allowing identification of which user encountered which problem in a specific flight simulator.
 
-I used:
-
- MySql to manage the database;
- 
- Node.js was chosen for interacting with it;
- 
- React.js (Redux) for user interface;
- 
- Material-ui, Bootstrap and Bulma for stylizing;
-
- 
 In the project directory, you can run:
 
 npm start
@@ -68,3 +57,18 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 npm run build fails to minify
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+I used:
+
+ MySql to manage the database; (npm i express mysql2 sequelize argon2 cors dotenv)
+ 
+ Node.js was chosen for interacting with it; (npm init-y)  
+ 
+ React.js (Redux) for user interface; npx create-react-app frontend-template redux
+ 
+ Material-ui (npm install @mui/material @mui/styled-engine-sc styled-components or npm install @mui/material @emotion/react @emotion/styled), 
+ 
+ Bootstrap (npm install bootstrap) and 
+ 
+ Bulma (npm i react-router-dom axios bulma react-icons) for stylizing;
